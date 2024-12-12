@@ -34,7 +34,6 @@ public class Nomor1 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukan nilai N: ");
         int n = scanner.nextInt();
-
         // Memanggil prosedur untuk menampilkan deret FizzBuzz
         printFizzBuzz(n);
         /* Pekerjaan anda berakhir sini */
