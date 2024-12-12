@@ -5,10 +5,7 @@ public class Nomor2 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
-            import java.util.ArrayList;
-import java.util.Scanner;
-
-public class TokoBukuTogaPerak {
+           public class TokoBukuTogaPerak {
 
     // Daftar harga buku
     static int[] hargaBuku = {350000, 450000, 500000, 95000};
