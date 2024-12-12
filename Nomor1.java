@@ -7,6 +7,7 @@ public class Nomor1 {
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
             // Prosedur untuk menampilkan deret FizzBuzz
+     // Prosedur untuk menampilkan deret FizzBuzz
     public static void fizzBuzz(int n) {
         for (int i = 0; i <= n; i++) {
             // Cek kelipatan 3 dan 5
@@ -42,6 +43,7 @@ public class Nomor1 {
 
         // Menutup scanner
         Scanner.close();
+    }
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
