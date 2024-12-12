@@ -1,15 +1,11 @@
 import java.util.Scanner;
 
 public class Nomor1 {
-
+    
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
-           import java.util.Scanner;
-
-public class fizzBuzz {
-
     // Prosedur untuk menampilkan deret FizzBuzz
     public static void printFizzBuzz(int n) {
         // Iterasi dari 0 hingga n
@@ -41,9 +37,6 @@ public class fizzBuzz {
 
         // Memanggil prosedur untuk menampilkan deret FizzBuzz
         printFizzBuzz(n);
-    }
-}
-
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
