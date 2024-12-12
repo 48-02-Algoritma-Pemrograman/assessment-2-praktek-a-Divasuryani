@@ -12,7 +12,7 @@ public class Nomor1 {
         for (int i = 0; i <= n; i++) {
             // Cek apakah i merupakan kelipatan 3 dan 5
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FizzBuzz ");
+             System.out.print("FizzBuzz ");
             }
             // Cek apakah i merupakan kelipatan 3
             else if (i % 3 == 0) {
