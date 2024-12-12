@@ -6,44 +6,44 @@ public class Nomor1 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
-            // Prosedur untuk menampilkan deret FizzBuzz
-     // Prosedur untuk menampilkan deret FizzBuzz
-    public static void fizzBuzz(int n) {
+           import java.util.Scanner;
+
+public class fizzBuzz {
+
+    // Prosedur untuk menampilkan deret FizzBuzz
+    public static void printFizzBuzz(int n) {
+        // Iterasi dari 0 hingga n
         for (int i = 0; i <= n; i++) {
-            // Cek kelipatan 3 dan 5
+            // Cek apakah i merupakan kelipatan 3 dan 5
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FizzBuzz ");
             }
-            // Cek kelipatan 3
+            // Cek apakah i merupakan kelipatan 3
             else if (i % 3 == 0) {
                 System.out.print("Fizz ");
             }
-            // Cek kelipatan 5
+            // Cek apakah i merupakan kelipatan 5
             else if (i % 5 == 0) {
                 System.out.print("Buzz ");
             }
-            // Jika bukan kelipatan 3 atau 5
+            // Jika tidak memenuhi kondisi di atas, cetak angka itu sendiri
             else {
                 System.out.print(i + " ");
             }
         }
-        System.out.println();  // Untuk mencetak baris baru setelah selesai
     }
 
     public static void main(String[] args) {
-        // Scanner untuk input user
-        Scanner Scanner = new Scanner(System.in);
-
-        // Input dari user untuk nilai n
+        // Membaca input dari user
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Masukan nilai N: ");
-        int n = Scanner.nextInt();
+        int n = scanner.nextInt();
 
-        // Memanggil prosedur fizzBuzz dengan "n"
-        fizzBuzz(n);
-
-        // Menutup scanner
-        Scanner.close();
+        // Memanggil prosedur untuk menampilkan deret FizzBuzz
+        printFizzBuzz(n);
     }
+}
+
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
